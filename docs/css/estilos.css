@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fejercicio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+main{
+    width:100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contenedor_principal{
+    width:100%;
+    max-width: 500px;
+    margin:auto;
+    position:relative;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 40px 80px;
+    transition: all 500ms;
+    text-align: center;
+    float: center;
+}
+.contenedor_principal div{
+    margin-top: 30px;
+}
+.button{
+    margin-top: 30px;
+}
+.contenedor_principal div h3{
+    font-weight: 400;
+    font-size:26px;
+    color:white;
+    margin-top: 20px
+}
+
+.button{
+    padding:10px 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    transition: all 300ms;
+}
+.button:hover{
+    background: #fff;
+    color: black;
+}
+.contenedor_principal form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
