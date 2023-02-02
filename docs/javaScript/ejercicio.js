@@ -794,3 +794,33 @@ function multiplosDe3() {
 
 };
   
+  // 24.Pedir un número, mostrar los números desde n hasta 0.
+  
+  const $form24 =document.getElementById('form24');
+  const alertPlaceholder24 = document.getElementById('liveAlertPlaceholder24');
+
+  $form24.addEventListener('submit', (e) => {
+      e.preventDefault();
+      desdeNhasta0();
+  })
+  const desdeNhasta0 = () => {
+    const numero24 = parseInt($form24.nmr0.value);
+  
+    for (let i = numero24; i > -1; i--) {
+      alert24(`${i}`)
+    }
+   
+  };
+  const alert24 = (message, type) => {
+    const wrapper = document.createElement('div')
+    wrapper.innerHTML = [
+      `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+      `   <div>${message}</div>`,
+      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+      '</div>'
+    ].join('')
+  
+    alertPlaceholder24.append(wrapper)
+
+};
+  
