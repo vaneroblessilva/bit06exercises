@@ -35,7 +35,7 @@ function mayordeedad() {
   if ($edad >= 18) {
     alert2('Eres mayor de edad',  'success');
 } else if($edad <= 18){
-    alert2('Upss NO eres mayor de edad',  'success');
+    alert2('No eres mayor de edad',  'success');
   
 } else {
   alert2('Debes ingresar tu edad')
@@ -115,7 +115,7 @@ $form4.addEventListener('submit', (e) => {
             pares += i + ', ';
         }
       }
-      alert4(`los numeros pares desde 1 hasta ${nmr4} Son ( ${pares} )`);
+      alert4(`Los números pares desde 1 hasta ${nmr4} son ( ${pares} )`);
     }
     const alert4 = (message, type) => {
         const wrapper = document.createElement('div')
